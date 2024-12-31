@@ -25,7 +25,7 @@ model = whisper.load_model("base")  # Use "base", "medium", or "large" for bette
 model = model.to("cuda" if torch.cuda.is_available() else "cpu")  # Explicitly move model to GPU if available
 
 # Input audio file
-audio_file = "ozMeeting.wav"
+audio_file = r"C:\Users\cicai\Desktop\meeting2\RECR0002.wav"
 
 # Step 1: Diarization
 start_time = time.time()
@@ -78,7 +78,7 @@ alignment_time = time.time() - start_time
 print(f"Alignment completed in {alignment_time:.2f} seconds.\n")
 
 # Step 5: Save results to a text file
-output_file = "diarization_results.txt"
+output_file = r"C:\Users\cicai\Desktop\meeting2\diarization_results.txt"
 print("Saving results to file...")
 start_time = time.time()
 with open(output_file, "w") as file:

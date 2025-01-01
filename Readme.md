@@ -1,3 +1,5 @@
+#all current work is on main branch not master
+
 # Memory Project
 
 The Memory Project is an experimental endeavor aiming to revolutionize how we capture, process, and recall information from daily interactions. By leveraging cutting-edge artificial intelligence and audio processing technologies, the project aspires to create a seamless system for summarizing conversations, answering contextual queries, and integrating with wearable devices.

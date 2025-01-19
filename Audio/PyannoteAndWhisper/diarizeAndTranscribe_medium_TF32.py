@@ -4,6 +4,17 @@ import torch
 from pyannote.core import Segment
 import time  # For timing
 
+# Reproducibility warning fix
+print("C:\\Users\\cicai\\PycharmProjects\\MemryB\\.venv\\Lib\\site-packages\\pyannote\\audio\\utils\\reproducibility.py:74: ReproducibilityWarning: TensorFloat-32 (TF32) has been disabled as it might lead to reproducibility issues and lower accuracy.")
+print("It can be re-enabled by calling")
+print("   >>> import torch")
+print("   >>> torch.backends.cuda.matmul.allow_tf32 = True")
+print("   >>> torch.backends.cudnn.allow_tf32 = True")
+
+import torch
+torch.backends.cuda.matmul.allow_tf32 = True
+torch.backends.cudnn.allow_tf32 = True
+
 # Check if CUDA is available
 if torch.cuda.is_available():
     cuda_device = torch.cuda.get_device_name(0)
@@ -21,11 +32,11 @@ pipeline = Pipeline.from_pretrained(
 pipeline.to(torch.device("cuda" if torch.cuda.is_available() else "cpu"))
 
 # Load OpenAI Whisper model
-model = whisper.load_model("base")  # Use "base", "medium", or "large" for better accuracy
+model = whisper.load_model("medium")  # Use "base", "medium", or "large" for better accuracy
 model = model.to("cuda" if torch.cuda.is_available() else "cpu")  # Explicitly move model to GPU if available
 
 # Input audio file
-audio_file = r"C:\Users\cicai\PycharmProjects\MemryB\Sandbox\Experimental\X86\Input\Audio\Phillips\Meetings\output\meeting1_8_2025_Oz_Aubery.wav"
+audio_file = r"C:\Users\cicai\PycharmProjects\MemryB\Sandbox\Experimental\X86\Input\Audio\Phillips\Meetings\output\2025.01.02_21.14_01_alex.wav"
 
 # Step 1: Diarization
 start_time = time.time()
@@ -78,7 +89,7 @@ alignment_time = time.time() - start_time
 print(f"Alignment completed in {alignment_time:.2f} seconds.\n")
 
 # Step 5: Save results to a text file
-output_file = r"C:\Users\cicai\PycharmProjects\MemryB\Sandbox\Experimental\X86\Input\Audio\Phillips\Meetings\output\meeting1_8_2025_Oz_Aubery.txt"
+output_file = r"C:\Users\cicai\PycharmProjects\MemryB\Sandbox\Experimental\X86\Input\Audio\Phillips\Meetings\output\2025.01.02_21.14_01_Alex_More_Accurate_test.txt"
 print("Saving results to file...")
 start_time = time.time()
 with open(output_file, "w") as file:

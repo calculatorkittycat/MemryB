@@ -26,7 +26,7 @@ def check_hf_model_access(model_id: str, hf_token: str):
 if __name__ == "__main__":
     # Replace with your own model and token
     MODEL_ID = "pyannote/speaker-diarization"
-    HF_TOKEN = "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"
+    HF_TOKEN = ""
 
     has_access = check_hf_model_access(MODEL_ID, HF_TOKEN)
     print(f"[RESULT] Access check = {has_access}")

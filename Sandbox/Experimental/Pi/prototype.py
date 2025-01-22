@@ -14,13 +14,13 @@ import base64
 from openai import OpenAI
 
 # Venice.ai API Configuration
-api_key = "1vc8zXqnNa9p50q9Ua5ZzJMVn9K9pE26hQd75gygoZ"  # Replace with your Venice.ai API key
+api_key = ""  # Replace with your Venice.ai API key
 api_endpoint = "https://api.venice.ai/api/v1"
 model_id = "nous-theta-8b"
 api_timeout = 120
 
 # OpenAI API Configuration
-openai_api_key = "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"
+openai_api_key = ""
 client = OpenAI(api_key=openai_api_key)
 
 # Global variables

@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c525876a-89cb-4232-9a54-5701e293bde3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Audio/Azure/conversation_transcription.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Audio/Azure/katiesteve.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apis/LlamaLocal/Training/Vision2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apis/LlamaLocal/Training/Vision3_file_change_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apis/LlamaLocal/Training/Vision4_file_change_and_multi_description_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kin/kinect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NextCloudListener/av_listen_processor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NextCloudListener/av_listen_processor_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OBS/obsScriptFbLive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OBS/obswebsocket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sandbox/Experimental/Rag/LangChainRagOllama.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sandbox/Experimental/Rag/Phi4OllamaChat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sandbox/Experimental/Rag/RagFolderWatch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sandbox/Experimental/X86/ImageDescriptions/GeminiFree/Test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sandbox/Experimental/X86/ImageDescriptions/GeminiFree/reducingResolution4xTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MemryB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MemryB.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,21 +41,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "calculatorkittycat"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;calculatorkittycat&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/calculatorkittycat/MemryB.git",
-    "accountId": "6566766c-0747-4761-9426-ce4e77a12107"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/calculatorkittycat/MemryB.git&quot;,
+    &quot;accountId&quot;: &quot;6566766c-0747-4761-9426-ce4e77a12107&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2piS3RjJXrdTGxYZhynAi0aseXs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,19 +64,164 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.LangChainRagOllama.executor": "Run",
+    "Python.OllamaMxBai.executor": "Run",
+    "Python.Phi4OllamaChat.executor": "Run",
+    "Python.PyKinectV2.executor": "Run",
+    "Python.RagFolderWatch.executor": "Run",
+    "Python.Test.executor": "Run",
+    "Python.Vision2.executor": "Run",
+    "Python.Vision3_file_change_test (1).executor": "Run",
+    "Python.Vision3_file_change_test.executor": "Run",
+    "Python.Vision4_file_change_and_multi_description_test.executor": "Run",
+    "Python.asd.executor": "Run",
+    "Python.av_listen_processor.executor": "Run",
+    "Python.av_listen_processor_v2.executor": "Run",
+    "Python.checkCuda.executor": "Run",
     "Python.consoleChat.executor": "Run",
     "Python.conversation_transcription.executor": "Run",
     "Python.getModelList.executor": "Run",
     "Python.healthCheck.executor": "Run",
+    "Python.kinect.executor": "Run",
+    "Python.reducingResolution4xTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "Ivan__12__3__2024__#2",
-    "last_opened_file_path": "C:/Users/cicai/PycharmProjects/MemryB/Audio/Azure"
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/cicai/PycharmProjects/MemryB/Audio/Azure",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cicai\PycharmProjects\MemryB\Apis\LlamaLocal\Training" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.reducingResolution4xTest">
+    <configuration name="PyKinectV2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MemryB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.venv/Lib/site-packages/pykinect2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.venv/Lib/site-packages/pykinect2/PyKinectV2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MemryB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sandbox/Experimental/X86/ImageDescriptions/GeminiFree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sandbox/Experimental/X86/ImageDescriptions/GeminiFree/Test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="asd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MemryB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OBS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OBS/asd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="kinect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MemryB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kin/kinect.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="reducingResolution4xTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MemryB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sandbox/Experimental/X86/ImageDescriptions/GeminiFree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sandbox/Experimental/X86/ImageDescriptions/GeminiFree/reducingResolution4xTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.reducingResolution4xTest" />
+        <item itemvalue="Python.Test" />
+        <item itemvalue="Python.PyKinectV2" />
+        <item itemvalue="Python.kinect" />
+        <item itemvalue="Python.asd" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
       </set>
     </attachedChunks>
   </component>
